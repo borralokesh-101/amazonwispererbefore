@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Electronic Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Subscription</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Welcome to Amazon Electronic Store</h1>
+      <p>Discover the latest electronics and accessories.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section id="product-catalog">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <!-- Product cards will be dynamically generated here -->
+      </div>
+    </section>
+
+    <section id="search-filters">
+      <h2>Search and Filters</h2>
+      <div class="search-container">
+        <input type="text" placeholder="Search products">
+        <button class="search-btn">Search</button>
+      </div>
+      <div class="filters-container">
+        <!-- Filters will be added here -->
+      </div>
+    </section>
+
+    <section id="reviews-ratings">
+      <h2>Reviews and Ratings</h2>
+      <div class="review-container">
+        <!-- Review cards will be displayed here -->
+      </div>
+    </section>
+
+    <section id="subscription">
+      <h2>Subscribe to our Newsletter</h2>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="login">
+      <h2>Login</h2>
+      <form>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section id="gaming-zone">
+      <h2>Gaming Zone</h2>
+      <p>Enjoy our exclusive gaming experience.</p>
+      <a href="#" class="btn">Play Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Amazon Electronic Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
